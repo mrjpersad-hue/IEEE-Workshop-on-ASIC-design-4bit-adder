@@ -9,11 +9,20 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
-
+The half adder adds two single binary digits A and B. It has two outputs, sum (S) and carry (C)
 ## How to test
 
-Explain how to use your project
+Set the inputs and check whether the outputs match.
+| Input A B Cin | Output S Cout |
+|---------------|---------------|
+| 0 0 0         | 0 0           |
+| 0 0 1         | 0 1           |
+| 0 1 0         | 0 1           |
+| 0 1 1         | 1 0           |
+| 1 0 0         | 0 1           |
+| 1 0 1         | 1 0           |
+| 1 1 0         | 1 0           |
+| 1 1 1         | 1 1           |
 
 ## External hardware
 
